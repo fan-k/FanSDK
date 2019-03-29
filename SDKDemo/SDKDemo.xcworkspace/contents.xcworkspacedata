@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/fankangpeng/Desktop/workspace/FanSDK/FanSDK.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:SDKDemo.xcodeproj">
    </FileRef>
    <FileRef
