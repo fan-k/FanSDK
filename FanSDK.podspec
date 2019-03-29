@@ -126,7 +126,7 @@ spec.source_files  = "**"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
- spec.vendored_frameworks = 'FanFrameworks/*.framework'
+ spec.vendored_frameworks = 'FanSDK/Classes/*.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
