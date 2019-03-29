@@ -123,7 +123,7 @@ Pod::Spec.new do |spec|
 
 #spec.framework  = "UIKit"
    spec.frameworks = "UIKit", "Foundation"
-   spec.vendored_frameworks = "FanSDK.framework"
+   spec.vendored_frameworks = "**"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
