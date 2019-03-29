@@ -1,0 +1,6 @@
+framework module FanSDK {
+  umbrella header "FanSDK.h"
+
+  export *
+  module * { export * }
+}

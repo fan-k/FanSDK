@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-spec.source_files  = "FanFrameworks/**/**/*.h"
+spec.source_files  = "**"
 #spec.exclude_files = "Products"
 
   # spec.public_header_files = "Classes/**/*.h"
