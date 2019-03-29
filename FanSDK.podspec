@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-spec.source_files  = "**"
+#spec.source_files  = "FanFrameworks/**/**/*.h"
 #spec.exclude_files = "Products"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -123,10 +123,9 @@ spec.source_files  = "**"
 
 #spec.framework  = "UIKit"
    spec.frameworks = "UIKit", "Foundation"
-
+spec.vendored_frameworks = 'FanSDK.framework'
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
- spec.vendored_frameworks = 'FanSDK/Classes/*.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
