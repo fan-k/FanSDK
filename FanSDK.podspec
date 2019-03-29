@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-spec.source_files  = "Products"
+spec.source_files  = "Products/**/**/*.h"
 #spec.exclude_files = "Products"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -121,8 +121,8 @@ spec.source_files  = "Products"
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "UIKit"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+#spec.framework  = "UIKit"
+   spec.frameworks = "UIKit", "Foundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

@@ -15,8 +15,8 @@
 		6A6FF2CE2248A2AD00E8E7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6FF2CC2248A2AD00E8E7B6 /* LaunchScreen.storyboard */; };
 		6A6FF2D12248A2AD00E8E7B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6FF2D02248A2AD00E8E7B6 /* main.m */; };
 		6A6FF2DB2248A2AD00E8E7B6 /* SDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6FF2DA2248A2AD00E8E7B6 /* SDKDemoUITests.m */; };
-		6A941DD4224E02EF00B87843 /* FanSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A941DD3224E02EF00B87843 /* FanSDK.framework */; };
-		6A941DD5224E02EF00B87843 /* FanSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A941DD3224E02EF00B87843 /* FanSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A941DD7224E092F00B87843 /* FanSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A941DD6224E092F00B87843 /* FanSDK.framework */; };
+		6A941DD8224E092F00B87843 /* FanSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A941DD6224E092F00B87843 /* FanSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6A941DD5224E02EF00B87843 /* FanSDK.framework in Embed Frameworks */,
+				6A941DD8224E092F00B87843 /* FanSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +66,7 @@
 		6A6FF2D62248A2AD00E8E7B6 /* SDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6FF2DA2248A2AD00E8E7B6 /* SDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKDemoUITests.m; sourceTree = "<group>"; };
 		6A6FF2DC2248A2AD00E8E7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A941DD3224E02EF00B87843 /* FanSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FanSDK.framework; path = ../Products/FanSDK.framework; sourceTree = "<group>"; };
+		6A941DD6224E092F00B87843 /* FanSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FanSDK.framework; path = ../Products/FanSDK.framework; sourceTree = "<group>"; };
 		C9B825687B5476CF31AF4499 /* Pods-SDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDKDemo/Pods-SDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CDB2B38E6FD33B2BAD53ADCD /* libPods-SDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C5800A7ABA45813A62E135 /* Pods-SDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDKDemo/Pods-SDKDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B91330FBFDB5D2A2F50F49 /* libPods-SDKDemo.a in Frameworks */,
-				6A941DD4224E02EF00B87843 /* FanSDK.framework in Frameworks */,
+				6A941DD7224E092F00B87843 /* FanSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 		6A6FF2B52248A2AC00E8E7B6 = {
 			isa = PBXGroup;
 			children = (
-				6A941DD3224E02EF00B87843 /* FanSDK.framework */,
+				6A941DD6224E092F00B87843 /* FanSDK.framework */,
 				6A6FF2C02248A2AC00E8E7B6 /* SDKDemo */,
 				6A6FF2D92248A2AD00E8E7B6 /* SDKDemoUITests */,
 				6A6FF2BF2248A2AC00E8E7B6 /* Products */,
