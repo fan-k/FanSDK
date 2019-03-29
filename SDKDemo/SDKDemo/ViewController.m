@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <FanSDK/FanController.h>
 
 @interface ViewController ()
 
@@ -28,7 +27,6 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (void)buttonmethod{
-    [self presentViewController:[FanController new] animated:YES completion:nil];
 }
 
 @end
