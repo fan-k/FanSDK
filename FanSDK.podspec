@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "FanSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.2.0"
   spec.summary      = "介绍的内容我不知道写啥 FanSDK."
 
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "https://github.com/fan-k/FanSDK.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/fan-k/FanSDK.git", :tag => "1.2.0" }
 
 
 
